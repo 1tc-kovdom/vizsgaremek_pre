@@ -36,6 +36,11 @@ for szam in adatok:
 
 print(f"A beolvasott számok között {kilencdb} db 9-es van.")
 # 6. Mennyi a legnagyobb beírt szám
+legnagyobbszam=adatok[0]
+for szam in adatok:
+    if szam > legnagyobbszam:
+        legnagyobbszam=szam
 
+print(f"A legnagyobb szám {legnagyobbszam}")
 # 7. Hanyadik indexen van a legkisebb elem
 # 8. Páros számok kiírása paros.txt-be
